@@ -1,1 +1,0 @@
-# seasons-and-stars-varnambar

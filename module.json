@@ -28,5 +28,7 @@
     ]
   },
   "description": "Add-on module for Seasons &amp; Stars calendar mod. Adds a custom calendar for the Yseviel world setting.",
-  "url": "https://github.com/pwolthausen/seasons-and-stars-varnambar"
+  "url": "https://github.com/pwolthausen/seasons-and-stars-varnambar",
+  "manifest": "https://github.com/pwolthausen/seasons-and-stars-varnambar/blob/main/module.json",
+  "download": "https://github.com/pwolthausen/seasons-and-stars-varnambar/blob/main/module.zip"
 }
