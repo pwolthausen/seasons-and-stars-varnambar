@@ -30,6 +30,6 @@
     ]
   },
   "url": "https://github.com/pwolthausen/seasons-and-stars-varnambar",
-  "manifest": "https://github.com/pwolthausen/seasons-and-stars-varnambar/blob/main/module.json",
-  "download": "https://github.com/pwolthausen/seasons-and-stars-varnambar/blob/main/module.zip"
+  "manifest": "https://raw.githubusercontent.com/pwolthausen/seasons-and-stars-varnambar/refs/heads/main/module.json",
+  "download": "https://raw.githubusercontent.com/pwolthausen/seasons-and-stars-varnambar/refs/heads/main/module.zip"
 }
