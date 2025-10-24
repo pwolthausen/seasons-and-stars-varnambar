@@ -1,0 +1,32 @@
+{
+  "id": "seasons-and-stars-yseviel",
+  "title": "Seasons & Stars: Yseviel",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Aahzymandius",
+      "discord": "aahz1982",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "seasons-and-stars",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.7.0"
+        }
+      }
+    ]
+  },
+  "description": "<p>Add-on module for Seasons &amp; Stars calendar mod. Adds a custom calendar for the Yseviel world setting.</p>",
+  "url": "https://github.com/pwolthausen/seasons-and-stars-varnambar"
+}

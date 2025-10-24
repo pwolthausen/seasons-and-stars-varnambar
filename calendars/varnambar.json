@@ -1,0 +1,399 @@
+{
+  "id": "varnambar",
+  "translations": {
+    "en": {
+      "label": "Calendar of Yseviel (Varnambar)",
+      "description": "The calendar of the old Kingdom is similar to our own. A full year comprises 12 months, each month broken into 3 tenday stretches.",
+      "setting": "D&D Homebrew"
+    }
+  },
+
+  "year": {
+    "epoch": 5,
+    "currentYear": 127,
+    "prefix": "",
+    "suffix": " AR",
+    "startDay": 0
+  },
+
+  "months": [
+    {
+      "name": "Deepwinter",
+      "days": 30,
+      "description": "The deepest winter month. A time of cold, darkness, and huddled warmth around hearth fires."
+    },
+    {
+      "name": "Alturiak",
+      "days": 30,
+      "description": "The Claw of Winter. Storms rage and travel becomes treacherous. Also called 'The Claws of the Cold'."
+    },
+    {
+      "name": "Ches",
+      "days": 30,
+      "description": "The Claw of the Sunsets. Late winter begins to break, but cold snaps still threaten. The month of planning for spring."
+    },
+    {
+      "name": "Tarsakh",
+      "days": 30,
+      "description": "The Claw of the Storms. Spring rains and winds arrive with violent storms. Roads become muddy and travel difficult."
+    },
+    {
+      "name": "Mirtul",
+      "days": 30,
+      "description": "The Melting. Late spring brings warmth and the final melting of winter snow. Planting season begins in earnest."
+    },
+    {
+      "name": "Kythorn",
+      "days": 30,
+      "description": "The Time of Flowers. Early summer brings blooming flowers and mild weather. A popular time for weddings and festivals."
+    },
+    {
+      "name": "Summertide",
+      "days": 30,
+      "description": "Summertide. The height of summer with sweltering heat. Named for the oppressive temperatures that rule this month."
+    },
+    {
+      "name": "Highsun",
+      "days": 30,
+      "description": "Highsun. The hottest month of the year. Crops grow rapidly but water becomes precious. Also called 'The Deep Summer'."
+    },
+    {
+      "name": "Eleint",
+      "days": 30,
+      "description": "The Fading. Early autumn brings cooler weather and the beginning of harvest season. Leaves start to change color."
+    },
+    {
+      "name": "Leaffall",
+      "days": 30,
+      "description": "Leaffall. Mid-autumn brings falling leaves and the main harvest. A time of preparation for the coming winter."
+    },
+    {
+      "name": "Uktar",
+      "days": 30,
+      "description": "The Rotting. Late autumn brings decay and the first frosts. The final preparations for winter are completed."
+    },
+    {
+      "name": "Nightal",
+      "days": 30,
+      "description": "The Drawing Down. Early winter brings short days and long nights. The year draws to its close in cold and darkness."
+    }
+  ],
+
+  "weekdays": [
+    {
+      "name": "Aperio",
+      "abbreviation": "Ap",
+      "description": "First day of the tenday, often used for planning and new endeavors"
+    },
+    {
+      "name": "Aetherday",
+      "abbreviation": "Aeth",
+      "description": "Second day of the tenday, a common day for beginning journeys"
+    },
+    {
+      "name": "Freyrsday",
+      "abbreviation": "Frey",
+      "description": "Third day of the tenday, named after Freyr."
+    },
+    {
+      "name": "Thorsday",
+      "abbreviation": "Thor",
+      "description": "Fourth day of the tenday, named after Thor."
+    },
+    {
+      "name": "Zennithday",
+      "abbreviation": "Zen",
+      "description": "Fifth day of the tenday, and first day of the full moon, often used as a day of rest and meditation to commune with Freyja"
+    },
+    {
+      "name": "Runeday",
+      "abbreviation": "Run",
+      "description": "Sixth day of the tenday, often used for rest and reflection."
+    },
+    {
+      "name": "Hearthday",
+      "abbreviation": "Hrth",
+      "description": "Seventh day of the tenday"
+    },
+    {
+      "name": "Tyrsday",
+      "abbreviation": "Tyr",
+      "description": "Eight day of the tenday, named after the god of war and justice: Tyr."
+    },
+    {
+      "name": "Wodensday",
+      "abbreviation": "Wod",
+      "description": "Ninth day of the tenday, named after Odin in rememberance of the 9 days he hung from Yggdrasil."
+    },
+    {
+      "name": "Voidnight",
+      "abbreviation": "Void",
+      "description": "Final day of the tenday, the day that the moon Freyja disappears. When all 3 moon cycles align, this leads to one of the very few nights without any moonlight."
+    }
+  ],
+
+  "intercalary": [
+    {
+      "name": "Feast of Chauntea",
+      "after": "Eleint",
+      "days": 1,
+      "countsForWeekdays": true,
+      "month": 10,
+      "day": 1,
+      "description": "A celebration at the end of summer and to show thanks to the Chauntea for the past year's harvest."
+    },
+    {
+      "name": "Long Night's Lament",
+      "after": "Nightal",
+      "days": 1,
+      "countsForWeekdays": true,
+      "month": 1,
+      "day": 1,
+      "description": "The winter solstice, the shortest day of the year. A celebration of life and death, the cycle starts anew."
+    },
+    {
+      "name": "Lathandar's Day",
+      "after": "Ches",
+      "days": 1,
+      "countsForWeekdays": true,
+      "month": 4,
+      "day": 1,
+      "description": "Celebrating the spring equinox. Lethandar's day celebrates the return of spring and of rebirth and renewl. Frequently also marks the day when young villagers return to tend to the fields."
+    },
+    {
+      "name": "Divine Zenith",
+      "after": "Kythorn",
+      "days": 1,
+      "countsForWeekdays": true,
+      "month": 7,
+      "day": 1,
+      "description": "Celebration of the summer solstice. It celebrates the moment of greatest Divine influence in the world, the peak of the 5th Era's recovery. It's a day of grand processions and formal religious services where the New Gods' power is felt to be closest to the mortal plane."
+    },
+    {
+      "name": "Day of Rememberence",
+      "after": "Tarsakh",
+      "days": 1,
+      "countsForWeekdays": true,
+      "month": 5,
+      "day": 13,
+      "description": "This day commemorates the beginning of the Ogre Wars. A minute of silence is held just before the evening meal. On this day, many people meet with local military or militia to practice martial skills to help prevent another massacre like those that occurred in the early days of the war."
+    },
+    {
+      "name": "Feast of Bravery",
+      "after": "Summertide",
+      "days": 1,
+      "countsForWeekdays": true,
+      "month": 8,
+      "day": 15,
+      "description": "This day commemorates the sacrifice Gerrit made to protect Evermoor."
+    }
+  ],
+
+  "moons": [
+    {
+      "name": "Hoárr",
+      "cycleLength": 30,
+      "firstNewMoon": { "year": 1, "month": 1, "day": 1 },
+      "phases": [
+        { "name": "New Moon", "length": 4, "singleDay": false, "icon": "new" },
+        {
+          "name": "Waxing Crescent",
+          "length": 4,
+          "singleDay": false,
+          "icon": "waxing-crescent"
+        },
+        {
+          "name": "First Quarter",
+          "length": 4,
+          "singleDay": false,
+          "icon": "first-quarter"
+        },
+        {
+          "name": "Waxing Gibbous",
+          "length": 3,
+          "singleDay": false,
+          "icon": "waxing-gibbous"
+        },
+        {
+          "name": "Full Moon",
+          "length": 4,
+          "singleDay": false,
+          "icon": "full"
+        },
+        {
+          "name": "Waning Gibbous",
+          "length": 4,
+          "singleDay": false,
+          "icon": "waning-gibbous"
+        },
+        {
+          "name": "Last Quarter",
+          "length": 4,
+          "singleDay": false,
+          "icon": "last-quarter"
+        },
+        {
+          "name": "Waning Crescent",
+          "length": 3,
+          "singleDay": false,
+          "icon": "waning-crescent"
+        }
+      ],
+      "color": "#c0c0c0",
+      "translations": {
+        "en": {
+          "description": "The Moonmaiden's silver orb, goddess of good lycanthropes and navigation"
+        }
+      }
+    },
+    {
+      "name": "Freyja",
+      "cycleLength": 10,
+      "firstNewMoon": { "year": 1, "month": 1, "day": 10 },
+      "phases": [
+        { "name": "New Moon", "length": 2, "singleDay": false, "icon": "new" },
+        {
+          "name": "Waxing Crescent",
+          "length": 1,
+          "singleDay": true,
+          "icon": "waxing-crescent"
+        },
+        {
+          "name": "First Quarter",
+          "length": 1,
+          "singleDay": true,
+          "icon": "first-quarter"
+        },
+        {
+          "name": "Waxing Gibbous",
+          "length": 1,
+          "singleDay": true,
+          "icon": "waxing-gibbous"
+        },
+        {
+          "name": "Full Moon",
+          "length": 2,
+          "singleDay": false,
+          "icon": "full"
+        },
+        {
+          "name": "Waning Gibbous",
+          "length": 1,
+          "singleDay": true,
+          "icon": "waning-gibbous"
+        },
+        {
+          "name": "Last Quarter",
+          "length": 1,
+          "singleDay": true,
+          "icon": "last-quarter"
+        },
+        {
+          "name": "Waning Crescent",
+          "length": 1,
+          "singleDay": true,
+          "icon": "waning-crescent"
+        }
+      ],
+      "color": "#c0c0c0",
+      "translations": {
+        "en": {
+          "description": ""
+        }
+      }
+    },
+    {
+      "name": "Randirithil",
+      "cycleLength": 73,
+      "firstNewMoon": { "year": 1, "month": 1, "day": 2 },
+      "phases": [
+        { "name": "New Moon", "length": 10, "singleDay": false, "icon": "new" },
+        {
+          "name": "Waxing Crescent",
+          "length": 9,
+          "singleDay": false,
+          "icon": "waxing-crescent"
+        },
+        {
+          "name": "First Quarter",
+          "length": 9,
+          "singleDay": false,
+          "icon": "first-quarter"
+        },
+        {
+          "name": "Waxing Gibbous",
+          "length": 9,
+          "singleDay": false,
+          "icon": "waxing-gibbous"
+        },
+        {
+          "name": "Full Moon",
+          "length": 9,
+          "singleDay": false,
+          "icon": "full"
+        },
+        {
+          "name": "Waning Gibbous",
+          "length": 9,
+          "singleDay": false,
+          "icon": "waning-gibbous"
+        },
+        {
+          "name": "Last Quarter",
+          "length": 9,
+          "singleDay": false,
+          "icon": "last-quarter"
+        },
+        {
+          "name": "Waning Crescent",
+          "length": 9,
+          "singleDay": false,
+          "icon": "waning-crescent"
+        }
+      ],
+      "color": "#c0c0c0",
+      "translations": {
+        "en": {
+          "description": "The Wanderer, it's sporatic cycle throughout the year inspires those who seek to explore the world without a plan."
+        }
+      }
+    }
+  ],
+
+  "seasons": [
+    {
+      "name": "Winter",
+      "startMonth": 1,
+      "endMonth": 3,
+      "icon": "winter",
+      "description": "The harsh cold season when Auril's grip is strongest across the Realms."
+    },
+    {
+      "name": "Spring",
+      "startMonth": 4,
+      "endMonth": 6,
+      "icon": "spring",
+      "description": "The season of renewal as Chauntea's blessing returns life to the land."
+    },
+    {
+      "name": "Summer",
+      "startMonth": 7,
+      "endMonth": 9,
+      "icon": "summer",
+      "description": "The bright season of growth and adventure across the lands."
+    },
+    {
+      "name": "Autumn",
+      "startMonth": 10,
+      "endMonth": 12,
+      "icon": "fall",
+      "description": "The harvest season when communities prepare for winter's approach."
+    }
+  ],
+
+  "time": {
+    "hoursInDay": 24,
+    "minutesInHour": 60,
+    "secondsInMinute": 60
+  }
+}
