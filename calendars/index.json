@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/rayners/fvtt-seasons-and-stars/main/schemas/calendar-collection-v1.0.0.json",
   "name": "Yseviel",
   "description": "Custom calendars for Yseviel world setting.",
   "version": "1.0.0",
