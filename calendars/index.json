@@ -1,7 +1,7 @@
 {
   "name": "Yseviel",
   "description": "Custom calendars for Yseviel world setting.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "calendars": [
     {
       "id": "varnambar",

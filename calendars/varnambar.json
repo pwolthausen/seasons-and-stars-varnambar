@@ -132,62 +132,79 @@
     }
   ],
 
-  // "intercalary": [
-  //   {
-  //     "name": "Feast of Chauntea",
-  //     "after": "Eleint",
-  //     "days": 1,
-  //     "countsForWeekdays": true,
-  //     "month": 10,
-  //     "day": 1,
-  //     "description": "A celebration at the end of summer and to show thanks to the Chauntea for the past year's harvest."
-  //   },
-  //   {
-  //     "name": "Long Night's Lament",
-  //     "after": "Nightal",
-  //     "days": 1,
-  //     "countsForWeekdays": true,
-  //     "month": 1,
-  //     "day": 1,
-  //     "description": "The winter solstice, the shortest day of the year. A celebration of life and death, the cycle starts anew."
-  //   },
-  //   {
-  //     "name": "Lathandar's Day",
-  //     "after": "Ches",
-  //     "days": 1,
-  //     "countsForWeekdays": true,
-  //     "month": 4,
-  //     "day": 1,
-  //     "description": "Celebrating the spring equinox. Lethandar's day celebrates the return of spring and of rebirth and renewl. Frequently also marks the day when young villagers return to tend to the fields."
-  //   },
-  //   {
-  //     "name": "Divine Zenith",
-  //     "after": "Kythorn",
-  //     "days": 1,
-  //     "countsForWeekdays": true,
-  //     "month": 7,
-  //     "day": 1,
-  //     "description": "Celebration of the summer solstice. It celebrates the moment of greatest Divine influence in the world, the peak of the 5th Era's recovery. It's a day of grand processions and formal religious services where the New Gods' power is felt to be closest to the mortal plane."
-  //   },
-  //   {
-  //     "name": "Day of Rememberence",
-  //     "after": "Tarsakh",
-  //     "days": 1,
-  //     "countsForWeekdays": true,
-  //     "month": 5,
-  //     "day": 13,
-  //     "description": "This day commemorates the beginning of the Ogre Wars. A minute of silence is held just before the evening meal. On this day, many people meet with local military or militia to practice martial skills to help prevent another massacre like those that occurred in the early days of the war."
-  //   },
-  //   {
-  //     "name": "Feast of Bravery",
-  //     "after": "Summertide",
-  //     "days": 1,
-  //     "countsForWeekdays": true,
-  //     "month": 8,
-  //     "day": 15,
-  //     "description": "This day commemorates the sacrifice Gerrit made to protect Evermoor."
-  //   }
-  // ],
+  "events": [
+    {
+      "name": "Feast of Chauntea",
+      "id": "feast-of-chauntea",
+      "description": "A celebration at the end of summer and to show thanks to the Chauntea for the past year's harvest.",
+      "recurrence": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      },
+      "visibility": "player-visible",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Long Night's Lament",
+      "id": "long-night-lament",
+      "description": "The winter solstice, the shortest day of the year. A celebration of life and death, the cycle starts anew.",
+      "recurrence": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      },
+      "visibility": "player-visible",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Lathandar's Day",
+      "description": "Celebrating the spring equinox. Lethandar's day celebrates the return of spring and of rebirth and renewl. Frequently also marks the day when young villagers return to tend to the fields.",
+      "recurrence": {
+        "type": "fixed",
+        "month": 4,
+        "day": 1
+      },
+      "visibility": "player-visible",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Divine Zenith",
+      "id": "divinie-senith",
+      "description": "Celebration of the summer solstice. It celebrates the moment of greatest Divine influence in the world, the peak of the 5th Era's recovery. It's a day of grand processions and formal religious services where the New Gods' power is felt to be closest to the mortal plane.",
+      "recurrence": {
+        "type": "fixed",
+        "month": 7,
+        "day": 1
+      },
+      "visibility": "player-visible",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Day of Rememberence",
+      "id": "day-of-rememberence",
+      "description": "This day commemorates the beginning of the Ogre Wars. A minute of silence is held just before the evening meal. On this day, many people meet with local military or militia to practice martial skills to help prevent another massacre like those that occurred in the early days of the war.",
+      "recurrence": {
+        "type": "fixed",
+        "month": 5,
+        "day": 13
+      },
+      "visibility": "player-visible",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Feast of Bravery",
+      "id": "feast-of-bravery",
+      "description": "This day commemorates the sacrifice Gerrit made to protect Evermoor.",
+      "recurrence": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      },
+      "visibility": "player-visible",
+      "color": "#ff0000"
+    }
+  ],
 
   "moons": [
     {
