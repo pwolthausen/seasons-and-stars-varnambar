@@ -132,7 +132,9 @@
     }
   ],
   "intercalary": [],
-  "leapYear": {},
+  "leapYear": {
+    "rule": "none"
+  },
   "solarAnchors": [
     {
       "id": "winter-solstice",
