@@ -131,7 +131,42 @@
       "description": "Final day of the tenday, the day that the moon Freyja disappears. When all 3 moon cycles align, this leads to one of the very few nights without any moonlight."
     }
   ],
-
+  "intercalary": [],
+  "leapYear": {},
+  "solarAnchors": [
+    {
+      "id": "winter-solstice",
+      "label": "Winter Solstice",
+      "type": "solstice",
+      "subtype": "winter",
+      "month": 1,
+      "day": 1
+    },
+    {
+      "id": "summer-solstice",
+      "label": "Summer Solstice",
+      "type": "solstice",
+      "subtype": "summer",
+      "month": 7,
+      "day": 1
+    },
+    {
+      "id": "spring-equinox",
+      "label": "Spring Equinox",
+      "type": "equinox",
+      "subtype": "vernal",
+      "month": 4,
+      "day": 1
+    },
+    {
+      "id": "autumn-equinox",
+      "label": "Autumn Equinox",
+      "type": "equinox",
+      "subtype": "autumnal",
+      "month": 10,
+      "day": 1
+    }
+  ],
   "events": [
     {
       "name": "Feast of Chauntea",
@@ -159,6 +194,7 @@
     },
     {
       "name": "Lathandar's Day",
+      "id": "lethandars-day",
       "description": "Celebrating the spring equinox. Lethandar's day celebrates the return of spring and of rebirth and renewl. Frequently also marks the day when young villagers return to tend to the fields.",
       "recurrence": {
         "type": "fixed",
